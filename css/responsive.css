@@ -1,0 +1,204 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	.mean-container a.meanmenu-reveal {
+		margin-top: -30px;
+	}
+	.main-menu{
+		float: none;
+	}
+	.navber .navber-right {
+		float: none;
+		text-align: center;
+	}
+	.benner h1 {
+		font-size: 100px;
+	}
+	.benner h2 {
+		font-size: 55px;
+	}
+	.t-contant{
+		padding-left: 180px;
+	}
+	.rb-thumb {
+		width: 60px;
+		height: 40px;
+		padding-right: 10px;
+	}
+	.rb-contant h4 {
+		padding-top: 0;
+	}
+	.rb-contant {
+		padding-left: 60px;
+	}
+	.f-logo.pb-30 {
+		width: 85px;
+	}
+	.footer-info {
+		padding-bottom: 0;
+	}
+	.submit {
+		right: 0;
+		padding: 0 5px;
+		font-size: 14px;
+	}
+	.rb-thumb img{
+		width: 100%;
+		height: 100%;
+	}
+	.subscribe {
+		padding: 5px;
+	}
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+	.mean-container a.meanmenu-reveal {
+		margin-top: -30px;
+	}
+	.main-menu{
+		float: none;
+	}
+	.navber .navber-right {
+		float: none;
+		text-align: center;
+	}
+	.benner {
+		padding-top: 30px;
+	}
+	.benner h1 {
+		font-size: 72px;
+	}
+	.benner h2 {
+		font-size: 40px;
+	}
+	.single-about {
+		margin-bottom: 30px;
+	}
+	.single-counter {
+		border-right: 0;
+	}
+	.t-contant{
+		padding-left: 180px;
+	}
+	.separator{
+		display: none;
+	}
+	.s-img {
+		margin-bottom: 40px;
+	}
+	.single-testimonial.pr-100.pl-100.slick-slide{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.t-thumb{
+		float: none !important;
+		text-align: center;
+		padding-left: 170px;
+	}
+	.t-thumb img{
+		width: 65px;
+	}
+	.t-contant {
+		padding-left: 0;
+		text-align: center;
+	}
+	.team-content {
+		margin-bottom: 30px;
+	}
+	.designcontant img {
+		margin-left: 0;
+		width: 450px;
+		margin-bottom: -65px;
+	}
+	.grid-item {
+		width: 50%;
+	}
+	.single-blog {
+		margin-bottom: 40px;
+	}
+	.resent-blog {
+		margin-top: 50px;
+	}
+	.footer-heading{
+		padding-bottom: 20px;
+	}
+	.footer-heading{
+		padding-top: 60px;
+	}
+	.rb-thumb {
+		width: 90px;
+		height: 60px;
+		padding-right: 10px;
+	}
+	.rb-contant h4 {
+		padding-top: 0;
+	}
+	.rb-contant {
+		padding-left: 60px;
+	}
+	.f-logo.pb-30 {
+		width: 85px;
+	}
+	.footer-info {
+		padding-bottom: 0;
+	}
+	.submit {
+		right: 0;
+		padding: 0 5px;
+		font-size: 14px;
+	}
+	.rb-thumb img{
+		width: 100%;
+		height: 100%;
+	}
+	.subscribe {
+		padding: 5px;
+	}
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container {width:450px}
+
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	.benner h1 {
+		font-size: 40px;
+	}
+	.benner h2 {
+		font-size: 20px;
+	}
+	.designcontant img {
+		margin-left: 0;
+		width: 305px;
+		margin-bottom: -44px;
+	}
+	.single-counter{
+		padding-bottom: 0;
+	}
+	.counter-wrapper{
+		padding-bottom: 70px;
+	}
+	#scrollUp{
+		right: 25px;
+		bottom: 30px;
+	}
+}
